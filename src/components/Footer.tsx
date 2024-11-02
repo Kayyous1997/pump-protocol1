@@ -16,7 +16,7 @@ const Footer = () => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              href="https://twitter.com"
+              href="https://x.com/PumpProtocol_"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
