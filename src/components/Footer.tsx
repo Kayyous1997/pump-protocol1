@@ -43,6 +43,19 @@ const Footer = () => {
             >
               <Send className="h-6 w-6" />
             </motion.a>
+
+              {/* GitBook documentation link with hover animation */}
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              href="https://cor.gitbook.io/pump-protocol"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              {/* Documentation icon with consistent sizing */}
+              <Book className="h-6 w-6" />
+            </motion.a>
           </div>
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Pump Protocol. All rights reserved.
