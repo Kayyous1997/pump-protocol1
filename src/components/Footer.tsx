@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Twitter, Github, Send } from 'lucide-react';
+import { Twitter, Github, Send, Book } from 'lucide-react';
 
 const Footer = () => {
   return (
